@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <audio  muted="muted" src="./Musics/2-TheCave.ogg" autoplay loop type="audio/ogg"></audio>
+    <div id="introduction">
+        <img src="./Dungeon-Escape-9-2-2023 (1).png" alt="">
+        <h3>Where your worst nightmares come true</h3>
+        <img class="enter" src="./Press-Enter-9-2-2023.png" alt="">
+        <img class="enter" src="./About-Press-Space-6-12-2024.png" alt="">
+
+        <h3>By: Joao Vitor de Freitas</h3>
+    </div>
+    <div id="About">
+        <img src="" alt="">
+        <h3>This Incredible adventure was brought you</h3>
+        <h1>Joao Vitor de Freitas</h1>
+        <h3>Be prepared to face all your fears</h3>
+
+        <img class="enter" src="./Press-Enter-9-2-2023.png" alt="">
+    </div>
+    
+    <div id="characters">
+        <h2>But first, you will need to choose your hero</h2>
+        <h3>Each hero has there own strenghs and weaknesses, so choose wisely</h3>
+        <img class="enter" src="./Press-Enter-9-2-2023.png" alt="">
+    </div>
+    <div id="story">
+        <h2>Story</h2>
+        <p>You were exploring the wilderness and decided to explore a cave.<br>Suddently, you felt you foot slip and fell down a hole into a weird type of dungeon.<br>You don't know when it was created or what is its purpose.<br>But you know you need to get out!</p>
+        <img class="enter" src="./Press-Enter-9-2-2023.png" alt="">
+    </div>
+    <div id="charactersSelect">
+        <input checked type="radio" name="character" id="Cavegirl" value="./Cavegirl/" class="input-hidden" />
+        <label for="Cavegirl">
+            <img src="./Cavegirl/Faceset.png" alt="I'm sad"/>
+        </label>
+
+        <input type="radio" name="character" id="EskimoNinja" value="./EskimoNinja/" class="input-hidden" />
+        <label for="EskimoNinja">
+            <img src="./EskimoNinja/Faceset.png" alt="I'm happy" />
+        </label>
+
+        <input type="radio" name="character" id="Knight" value="./Knight/" class="input-hidden" />
+        <label for="Knight">
+            <img src="./Knight/Faceset.png" alt="I'm happy" />
+        </label>
+
+        <input type="radio" name="character" id="Monk" value="./Monk/" class="input-hidden" />
+        <label for="Monk">
+            <img src="./Monk/Faceset.png" alt="I'm happy" />
+        </label>
+
+        <input type="radio" name="character" id="Samurai" value="./Samurai/" class="input-hidden" />
+        <label for="Samurai">
+            <img src="./Samurai/Faceset.png" alt="I'm happy" />
+        </label>
+
+        <input type="radio" name="character" id="Oldman" value="./Oldman2/" class="input-hidden" />
+        <label for="Oldman">
+            <img src="./OldMan2/Faceset.png" alt="I'm happy" />
+        </label>
+
+        <input type="radio" name="character" id="MaskedNinja" value="./MaskedNinja/" class="input-hidden" />
+        <label for="MaskedNinja">
+            <img src="./MaskedNinja/Faceset.png" alt="I'm happy" />
+        </label>
+
+        <input type="radio" name="character" id="Inspector" value="./Inspector/" class="input-hidden" />
+        <label for="Inspector">
+            <img src="./Inspector/Faceset.png" alt="I'm happy" />
+        </label>
+    </div>
+    <canvas id="canvas" width="640px" height="512px" style="background-color: black;"></canvas>
+    <script type="module" src="./index.js"></script>
+    <div class="EXP hidden" id="EXP">
+        <p>EXP: 0</p>
+    </div>
+</body>
+</html>
